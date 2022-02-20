@@ -97,3 +97,64 @@ img {
     bottom: 20px;
     font-weight: 600;
 }
+
+.todoForm {
+    position: absolute;
+    bottom: 20%;
+    width: 50em;
+}
+
+.todoForm ::placeholder {
+    color: #d2ae2a;
+    text-align: center;
+    background-color: inherit;
+}
+
+.todoForm input {
+    background-color: inherit;
+    border-right: none;
+    width: 100%;
+}
+
+.todoForm input[type="text"] {
+    color: #d2ae2a;
+    text-align: center;
+}
+
+#quote {
+    position: absolute;
+    text-align: center;
+    color: #d2ae2a;
+    top: 0;
+    left: 0;
+    font-size: 1em;
+    margin: 20px;
+}
+
+#greeting {
+    position: absolute;
+    color: #d2ae2a;
+    font-size: 3em;
+    top: 10%;
+    font-weight: 600;
+}
+
+#todo-list {
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+    color: #d2ae2a;
+    position: absolute;
+    padding-left: 10px;
+    left: 0;
+    bottom: 5%;
+}
+#todo-list li {
+    padding-top: 10px;
+}
+
+#todo-list li button {
+    font-size: 0.6em;
+    color: #d2ae2a;
+    margin: 0px 30px 0px 10px;
+}
